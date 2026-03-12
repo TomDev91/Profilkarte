@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgrey;   
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: grey;
+    color: rgb(182, 196, 146);
+    padding: 20px;
+    width: auto;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    border-radius: 20%;
+}
+header img{
+    width: 150px;
+    height: auto;
+    border-radius: 20%;
+    color: black;
+    box-shadow: 15px 10px 10px;
+    object-fit: cover;    
+}
+
+article{
+    padding: 10px ;
+    margin: 15px;
+    max-width: 150px;
+}
+
+article:hover{
+    background-color: beige;
+    transition: 2s;
+}
+
+.Projekte{    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    /*border: solid black;*/
+}
+
+.Projekte a:hover{
+    color: coral;
+    transition: 1s;
+}
+
+.Projekte p{
+    margin-top: 10px;
+    margin-right: 100px;    
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.Projekte ul{
+    list-style:inside;
+}
+
+footer{
+    margin: 50px;
+    
+}
+footer a{
+    padding: 0px 10px;
+}
+
+.swiper {
+  width: 300px;
+  height: 200px;
+}
+
+.swiper-slide img{
+    width: 150px;
+}
