@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -7,39 +7,50 @@ body{
     justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
-    background-color: lightgrey;   
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
 }
-header{
+
+.Header {
+    display: flex;
+    flex-direction: row-reverse;
     background-color: grey;
     color: rgb(182, 196, 146);
     padding: 20px;
     width: auto;
     margin-left: 50vh;
     margin-right: 50vh;
-    border-radius: 20%;
-}
-header img{
-    width: 150px;
-    height: auto;
-    border-radius: 20%;
-    color: black;
+    border-radius: 15%;
     box-shadow: 15px 10px 10px;
-    object-fit: cover;    
+    color: black;   
 }
 
-article{
-    padding: 10px ;
+.Header h1, article{
+    color: beige;
+}
+
+.Header img {
+    width: 250px;
+    height: auto;
+    border-radius: 20%;
+ 
+    object-fit: cover;
+    padding: 10px;
+}
+
+article {
+    padding: 10px;
     margin: 15px;
     max-width: 150px;
 }
 
-article:hover{
+article:hover {
     background-color: beige;
     transition: 2s;
 }
 
-.Projekte{    
+.Projekte {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -47,36 +58,37 @@ article:hover{
     /*border: solid black;*/
 }
 
-.Projekte a:hover{
+.Projekte a:hover {
     color: coral;
     transition: 1s;
 }
 
-.Projekte p{
+.Projekte p {
     margin-top: 10px;
-    margin-right: 100px;    
+    margin-right: 100px;
     padding: 5px;
     text-decoration: underline;
     font-size: 20px;
 }
 
-.Projekte ul{
-    list-style:inside;
+.Projekte ul {
+    list-style: inside;
 }
 
-footer{
+footer {
     margin: 50px;
-    
+
 }
-footer a{
+
+footer a {
     padding: 0px 10px;
 }
 
 .swiper {
-  width: 300px;
-  height: 200px;
+    width: 300px;
+    height: 200px;
 }
 
-.swiper-slide img{
+.swiper-slide img {
     width: 150px;
 }
