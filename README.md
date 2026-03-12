@@ -1,98 +1,36 @@
-👨‍💻 Developer Profile Card
+👨‍💻 Entwickler Profilkarte
 
-A modern developer profile card built with HTML, CSS and JavaScript.
-The card presents a developer with a profile image, bio, social links and an interactive project slider.
+- Eine moderne Entwickler-Profilkarte, erstellt mit HTML, CSS und JavaScript.
+- Die Karte zeigt ein Entwicklerprofil mit Profilbild, kurzer Beschreibung, Social-Media-Links und einem Projekt-Slider.
 
-This project was created as a frontend practice challenge (2–4 hours) to improve layout, styling and UI component skills.
+- Dieses Projekt entstand als Frontend-Übung (2–4 Stunden Challenge), um Layout, Styling und UI-Komponenten zu trainieren.
 
-✨ Features
+✨ Features:
 
-👤 Developer profile card
+- 👤 Entwickler Profilkarte
 
-🖼 Profile image with shadow
+- 🖼 Profilbild mit Schatten
 
-📝 Short developer bio
+- 📝 Kurze Entwickler-Bio
 
-🎠 Project slider / carousel
+- 🎠 Projekt-Slider / Carousel
 
-🔗 Social media links
+- 🔗 Social-Media Links
 
-🎨 Hover effects
+- 🎨 Hover Effekte
 
-📱 Responsive layout
+- 📱 Responsives Layout
 
-⚡ Clean and simple UI
+- ⚡ Klare und einfache Benutzeroberfläche
 
-🖥 Preview
+- 🖥 Vorschau
 
-🧰 Technologies Used
+🧰 Verwendete Technologien:
 
-HTML5
+- HTML5
 
-CSS3
+- CSS3
 
-Flexbox
+- Flexbox
 
-JavaScript
-
-Swiper.js
-
-📂 Project Structure
-profile-card/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── images/
-│   ├── profile.jpg
-│   └── projects/
-│
-└── README.md
-🎯 Learning Goals
-
-This project helped practice:
-
-HTML structure
-
-CSS layout techniques
-
-Flexbox alignment
-
-Hover interactions
-
-UI components (slider)
-
-Basic JavaScript integration
-
-Clean project structure
-
-🚀 Future Improvements
-
-Possible enhancements:
-
-Dark mode
-
-Better mobile layout
-
-Animated transitions
-
-Project detail pages
-
-Accessibility improvements
-
-Portfolio integration
-
-🔗 Social Links
-
-GitHub
-
-Instagram
-
-Portfolio
-
-📜 License
-
-This project is open source and free to use.
-
-⭐ If you like the project, feel free to star the repository.
+- JavaScript
