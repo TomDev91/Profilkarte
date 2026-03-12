@@ -52,10 +52,12 @@ article:hover {
 
 .Projekte {
     display: flex;
+    background-color: grey;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    /*border: solid black;*/
+    border: solid black;
+    margin: 50px 500px;
 }
 
 .Projekte a:hover {
@@ -63,12 +65,13 @@ article:hover {
     transition: 1s;
 }
 
-.Projekte p {
+.Projekte h1 {
     margin-top: 10px;
     margin-right: 100px;
     padding: 5px;
     text-decoration: underline;
     font-size: 20px;
+    color: beige;
 }
 
 .Projekte ul {
@@ -87,6 +90,7 @@ footer a {
 .swiper {
     width: 300px;
     height: 200px;
+    
 }
 
 .swiper-slide img {
