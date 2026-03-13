@@ -1,3 +1,4 @@
+/* === Body & Navbar === */
 body {
     background-color: rgb(252,248,237);
     font-family: Arial, Helvetica, sans-serif;
@@ -41,25 +42,15 @@ header {
     padding: 10px;
 }
 
+/* === Main Sektion === */
+
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-}
-
-@media(min-width: 850px) {
-    main {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: baseline;
-        align-items: center;
-        width: 100%;
-        margin: 2vh;
-    }
 }
 
 .Profil {
@@ -107,6 +98,8 @@ article:hover {
     height: 50vh;
     width: 50vh;
 }
+
+/* === Swiper === */
 
 .swiper {
     width: 300px;
@@ -177,4 +170,15 @@ footer a {
 }
 
 
-
+/* === Responsive Style === */
+@media(min-width: 850px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: baseline;
+        align-items: center;
+        width: 100%;
+        margin: 2vh;
+    }
+}
