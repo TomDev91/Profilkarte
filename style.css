@@ -47,11 +47,49 @@ article:hover {
 
 .Projekte {
     background-color: grey;
+    display: flex;
     flex-direction:column;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: top;
     border: solid black;
+    border-radius: 20px;
     margin: 50px 50px;
+    height: auto;
+}
+
+.swiper {
+    width: 300px;
+    height: auto;    
+    transition: 2s;
+
+}
+
+.swiper-wrapper{
+    transition: 2s;
+}
+
+.swiper-slide a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 150px;
+}
+
+.swiper-slide .project-description{
+    display: block;
+    color: beige;
+       
+}
+
+.swiper-slide .project-description-headline{
+    padding: 4px; 
+}
+
+.swiper-slide .project-description-text{
+    padding: 4px; 
 }
 
 .Projekte a:hover {
@@ -59,7 +97,7 @@ article:hover {
     transition: 1s;
 }
 
-.Projekte h1 {
+.Projekte h1{
     margin-top: 10px;
     margin-right: 100px;
     padding: 5px;
@@ -68,7 +106,7 @@ article:hover {
     color: beige;
 }
 
-.Projekte ul {
+.Projekte ul{
     list-style: inside;
 }
 
@@ -81,20 +119,7 @@ footer a {
     padding: 0px 10px;
 }
 
-.swiper {
-    width: 300px;
-    height: 200px;    
-}
 
-.swiper-slide a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    width: 150px;
-}
 
 @media(min-width: 850px){
     main{
