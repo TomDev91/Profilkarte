@@ -12,24 +12,42 @@
 </head>
 
 <body>
-    <!-- Der Header soll umgebaut werden.
-     So das, dass Bild neben dem Text steht.-->
+    <header>
+        <nav class="navbar">
+            <section class="nav-links">
+                <h2>Meine Seite</h2>
+                <a href="#">Über mich</a>
+                <a href="#">Meine Projekte</a>
+            </section>
+
+            <section class="nav-social">
+                <a href="https://www.instagram.com/tratos91/" title="Instagram" target="_blank"><img
+                        src="./Images/icons8-instagram-48.png" alt="Instagram"></a>
+                <a href="https://github.com/" title="Github Account" target="_blank"><img
+                        src="./Images/icons8-github-48.png" alt="Github"></a>
+            </section>
+        </nav>
+    </header>
 
     <main>
-        <div class="Header">
+        <div class="Profil">
             <div class="Profil-Foto">
                 <img src="./Images/DSC_0018 (2).jpg" alt="mein-Bild">
             </div>
             <section class="vorstellung">
                 <h1 class="profil-Name">Tom Lippmann</h1>
+                <h3>Über mich:</h3>
                 <article class="Beschreibung-Bio">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.
                 </article>
+                <h3>Meine Projekte:</h3>
                 <article class="Beschreibung-Projekte">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, similique.
                 </article>
             </section>
         </div>
+
+
         <div class="Projekte">
             <h1>Projekte:</h1>
             <!-- Slider main container -->
@@ -41,16 +59,34 @@
                         <a href="#">
                             <img src="./Images/Kaffee.png" alt="Projekt 1" title="Kaffee">
                         </a>
+                        <div class="project-description">
+                            <h4 class="project-description-headline">Beschreibung des Projekts:</h4>
+                            <p class="project-description-text">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Laborum, assumenda?</p>
+                        </div>
                     </div>
                     <div class="swiper-slide">
                         <a href="#">
                             <img src="./Images/Cappucchino.png" alt="Projekt 1" title="Cappuchino">
                         </a>
+                        <div class="project-description">
+                            <h4 class="project-description-headline">Beschreibung des Projekts:</h4>
+                            <p class="project-description-text">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Laborum, assumenda?</p>
+                        </div>
                     </div>
                     <div class="swiper-slide">
                         <a href="#">
                             <img src="./Images/CoffeeAutomat.png" alt="Projekt 1" title="Automat">
                         </a>
+                        <div class="project-description">
+                            <h4 class="project-description-headline">Beschreibung des Projekts:</h4>
+                            <p class="project-description-text">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Laborum, assumenda?</p>
+                        </div>
                     </div>
                 </div>
 
@@ -63,12 +99,15 @@
                 <div class="swiper-button-next" style="color: beige;"></div>
             </div>
         </div>
+
+        <div class="junior-programmer">
+            <img title="Test" src="./Images/lucadialessandro-ai-generated-8329596_1280.jpg" 
+            alt="AI Bild eines Junior Programmieres">
+        </div>
     </main>
     <footer>
-        <a href="https://www.instagram.com/tratos91/" title="Instagram" target="_blank"><img
-                src="./Images/icons8-instagram-48.png" alt="Instagram"></a>
-        <a href="https://github.com/" title="Github Account" target="_blank"><img src="./Images/icons8-github-48.png"
-                alt="Github"></a>
+        <a href="#">Impressum</a>
+        <a href="#">Kontakt</a>
     </footer>
 
     <script src="./Swipper/swiper-bundle.min.js"></script>
