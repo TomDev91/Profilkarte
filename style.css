@@ -72,8 +72,7 @@ main {
     color: black;
 }
 
-.Profil h1,
-article {
+.Profil h1,h3,article {
     color: beige;
 }
 
@@ -164,7 +163,6 @@ article:hover {
 
 footer {
     margin: 50px;
-
 }
 
 footer a {
