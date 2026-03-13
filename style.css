@@ -12,7 +12,7 @@ main{
     align-items: center;
 }
 
-.Header {
+.Profil {
     background-color: grey;
     color: rgb(182, 196, 146);
     padding: 20px;    
@@ -22,11 +22,11 @@ main{
     color: black;   
 }
 
-.Header h1, article{
+.Profil h1, article{
     color: beige;
 }
 
-.Header img {
+.Profil img {
     width: 250px;
     height: auto;
     border-radius: 20%; 
@@ -61,7 +61,7 @@ article:hover {
     width: 300px;
     height: auto;    
     transition: 2s;
-
+    display: block;
 }
 
 .swiper-wrapper{
@@ -129,5 +129,6 @@ footer a {
     justify-content:baseline;
     align-items: center;
     width: 100%;
+    margin: 15vh;
 }
 }
