@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(252,248,237);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -72,8 +72,7 @@ main {
     color: black;
 }
 
-.Profil h1,
-article {
+.Profil h1,h3,article {
     color: beige;
 }
 
@@ -162,9 +161,15 @@ article:hover {
     list-style: inside;
 }
 
-footer {
-    margin: 50px;
+.junior-programmer img{
+    width: 700px;
+    height: auto;
+}
 
+footer {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
 }
 
 footer a {
