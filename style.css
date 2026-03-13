@@ -1,11 +1,16 @@
-body {   
-    display: flex;
+body {       
     background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 5%;
 }
 
 main{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid black;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
     border:10px solid black;
 }
 
@@ -13,6 +18,7 @@ main{
     background-color: grey;
     color: rgb(182, 196, 146);
     padding: 20px;    
+    width: 50vh;
     border-radius: 15%;
     box-shadow: 15px 10px 10px;
     color: black;   
@@ -42,9 +48,8 @@ article:hover {
 }
 
 .Projekte {
-    display: flex;
     background-color: grey;
-    flex-direction: column;
+    flex-direction:column;
     flex-wrap: wrap;
     align-content: center;
     border: solid black;
