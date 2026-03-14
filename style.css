@@ -59,8 +59,8 @@ main {
     background-color: grey;
     color: rgb(182, 196, 146);
     padding: 20px;
-    width: 100vh;
-    border-radius: 5%;
+    width: 50vh;
+    border-radius: 15px;
     box-shadow: 15px 10px 10px;
     color: black;
 }
@@ -95,23 +95,10 @@ article:hover {
     transition: 2s;
 }
 
-.Projekte {
-    background-color: grey;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: top;
-    border: solid black;
-    border-radius: 20px;
-    margin: 50px 50px;
-    height: 50vh;
-    width: 50vh;
-}
-
 /* === Swiper === */
 
 .swiper {
-    width: 300px;
+    width: 25vh;
     height: auto;
     transition: 2s;
     display: block;
@@ -147,18 +134,33 @@ article:hover {
 
 /* === Projekte === */
 
+.Projekte{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: grey;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 10px;
+}
+
 .Projekte a:hover {
     color: coral;
     transition: 1s;
 }
 
-.Projekte h1 {
+.Projekte h1,h2 {
     margin-top: 10px;
     margin-right: 100px;
     padding: 5px;
     text-decoration: underline;
     font-size: 20px;
     color: beige;
+}
+
+.Projekte .project-description{
+    width: 50vh;
 }
 
 .Projekte ul {
@@ -192,10 +194,10 @@ footer a {
         justify-content: baseline;
         align-items: center;
         width: 100%;
-        margin: 2vh;
+        margin: 0vh;
     }
     .Profil{
-        width: 90%;
+        width: 70%;
         margin-top: 5%;       
     }
 }
