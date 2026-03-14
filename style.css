@@ -136,6 +136,8 @@ article:hover {
     padding: 4px;
 }
 
+/* === Projekte === */
+
 .Projekte a:hover {
     color: coral;
     transition: 1s;
@@ -158,6 +160,8 @@ article:hover {
     width: 700px;
     height: auto;
 }
+
+/* === Footer === */
 
 footer {
     display: flex;
