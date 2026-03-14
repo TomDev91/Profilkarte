@@ -46,7 +46,7 @@ header {
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
@@ -54,17 +54,27 @@ main {
 }
 
 .Profil {
+    display: flex;
+    flex-direction: row;
     background-color: grey;
     color: rgb(182, 196, 146);
     padding: 20px;
-    width: 50vh;
-    border-radius: 15%;
+    width: 100vh;
+    border-radius: 5%;
     box-shadow: 15px 10px 10px;
     color: black;
 }
 
+.Profil .vorstellung{
+    width: 50vh;
+}
+
 .Profil h1,h3,article {
     color: beige;
+}
+
+.Profil-Foto{
+    width: 50vh;
 }
 
 .Profil img {
@@ -77,12 +87,11 @@ main {
 
 article {
     padding: 10px;
-    margin: 15px;
-    max-width: 150px;
+    max-width: auto;
 }
 
 article:hover {
-    background-color: beige;
+    background-color:rgb(48, 48, 48);
     transition: 2s;
 }
 
@@ -178,11 +187,24 @@ footer a {
 @media(min-width: 850px) {
     main {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
         justify-content: baseline;
         align-items: center;
         width: 100%;
         margin: 2vh;
+    }
+    .Profil{
+        width: 90%;
+        margin-top: 5%;       
+    }
+}
+
+@media(max-width:849px){
+    .Profil{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 5%;
     }
 }
