@@ -50,7 +50,8 @@ main {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    margin:auto;
+    max-width: 100%;
 }
 
 .Profil {
@@ -59,7 +60,7 @@ main {
     background-color: grey;
     color: rgb(182, 196, 146);
     padding: 20px;
-    width: 50vh;
+    width: 90vw;
     border-radius: 15px;
     box-shadow: 15px 10px 10px;
     color: black;
@@ -92,7 +93,7 @@ article {
 
 article:hover {
     background-color:rgb(48, 48, 48);
-    transition: 2s;
+    transition: 2s; 
 }
 
 /* === Swiper === */
@@ -138,16 +139,12 @@ article:hover {
     display: flex;
     flex-direction: row-reverse;
     background-color: grey;
-    width: auto;
-    border: 3px solid black;
+    width: 70vw;
     border-radius: 15px;
     margin: 30px;
-    padding: 10px;
-}
-
-.Projekte a:hover {
-    color: coral;
-    transition: 1s;
+    padding: 20px;
+    box-shadow: 15px 10px 10px;
+    
 }
 
 .Projekte h1,h2 {
@@ -167,9 +164,37 @@ article:hover {
     list-style: inside;
 }
 
+/* === Junior-Programmer === */
+
+.junior-programmer{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    color: rgb(182, 196, 146);
+    padding: 20px;
+    width: 70vw;
+    border-radius: 15px;
+    box-shadow: 15px 10px 10px;
+    color: black;
+}
+
+.junior-description{
+    width: 50vh;
+    padding:20px;
+    color:beige;
+    flex:1;
+}
+
+.junior-img{
+    flex:1;
+}
+
 .junior-programmer img{
-    width: 700px;
+    width: 400px;
     height: auto;
+    border-radius: 20%;
+    object-fit: cover;
+    padding: 10px;
 }
 
 /* === Footer === */
@@ -193,7 +218,7 @@ footer a {
         flex-wrap: nowrap;
         justify-content: baseline;
         align-items: center;
-        width: 100%;
+        width: 100vw;
         margin: 0vh;
     }
     .Profil{
