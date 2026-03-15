@@ -50,7 +50,8 @@ main {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    margin:auto;
+    max-width: 100%;
 }
 
 .Profil {
@@ -59,8 +60,8 @@ main {
     background-color: grey;
     color: rgb(182, 196, 146);
     padding: 20px;
-    width: 100vh;
-    border-radius: 5%;
+    width: 90vw;
+    border-radius: 15px;
     box-shadow: 15px 10px 10px;
     color: black;
 }
@@ -92,26 +93,13 @@ article {
 
 article:hover {
     background-color:rgb(48, 48, 48);
-    transition: 2s;
-}
-
-.Projekte {
-    background-color: grey;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: top;
-    border: solid black;
-    border-radius: 20px;
-    margin: 50px 50px;
-    height: 50vh;
-    width: 50vh;
+    transition: 2s; 
 }
 
 /* === Swiper === */
 
 .swiper {
-    width: 300px;
+    width: 25vh;
     height: auto;
     transition: 2s;
     display: block;
@@ -147,12 +135,19 @@ article:hover {
 
 /* === Projekte === */
 
-.Projekte a:hover {
-    color: coral;
-    transition: 1s;
+.Projekte{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: grey;
+    width: 70vw;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 15px 10px 10px;
+    
 }
 
-.Projekte h1 {
+.Projekte h1,h2 {
     margin-top: 10px;
     margin-right: 100px;
     padding: 5px;
@@ -161,13 +156,45 @@ article:hover {
     color: beige;
 }
 
+.Projekte .project-description{
+    width: 50vh;
+}
+
 .Projekte ul {
     list-style: inside;
 }
 
+/* === Junior-Programmer === */
+
+.junior-programmer{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    color: rgb(182, 196, 146);
+    padding: 20px;
+    width: 70vw;
+    border-radius: 15px;
+    box-shadow: 15px 10px 10px;
+    color: black;
+}
+
+.junior-description{
+    width: 50vh;
+    padding:20px;
+    color:beige;
+    flex:1;
+}
+
+.junior-img{
+    flex:1;
+}
+
 .junior-programmer img{
-    width: 700px;
+    width: 400px;
     height: auto;
+    border-radius: 20%;
+    object-fit: cover;
+    padding: 10px;
 }
 
 /* === Footer === */
@@ -191,11 +218,11 @@ footer a {
         flex-wrap: nowrap;
         justify-content: baseline;
         align-items: center;
-        width: 100%;
-        margin: 2vh;
+        width: 100vw;
+        margin: 0vh;
     }
     .Profil{
-        width: 90%;
+        width: 70%;
         margin-top: 5%;       
     }
 }
