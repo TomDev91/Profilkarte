@@ -96,6 +96,10 @@ article:hover {
     transition: 2s; 
 }
 
+a{
+    text-decoration: none;
+}
+
 /* === Swiper === */
 
 .swiper {
